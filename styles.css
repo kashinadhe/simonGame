@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans';
+    background-color: rgb(19, 19, 102);
+}
+h1{
+    color: rgb(231, 231, 110);
+    text-align: center;
+    font-size: 5rem;
+}
+.mainDiv{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.btn{
+    border-width: 10px;
+    border-radius: 25px;
+    border-color: black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    
+}
+#green{
+    background-color: green;
+    color: green;
+}
+#red{
+    background-color: red;
+    color: red;
+}
+#yellow{
+    background-color: yellow;
+    color: yellow;
+}
+#blue{
+    background-color: blue;
+    color: blue;
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+    line-height: 0;
+  }
+.gameOver{
+    background-color: rgb(247, 78, 78);
+}
